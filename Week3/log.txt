@@ -1,0 +1,603 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\punza> cd C:\Users\punza\OneDrive\??????\GitHub\ITCS424-Wireless-And-Mobile-Computing\Week3\
+PS C:\Users\punza\OneDrive\เอกสาร\GitHub\ITCS424-Wireless-And-Mobile-Computing\Week3> flutter doctor
+Doctor summary (to see all details, run flutter doctor -v):
+[√] Flutter (Channel stable, 2.8.1, on Microsoft Windows [Version 10.0.19043.1466], locale en-US)
+[√] Android toolchain - develop for Android devices (Android SDK version 32.0.0)
+[√] Chrome - develop for the web
+[√] Android Studio (version 2020.3)
+[√] VS Code (version 1.63.2)
+[√] Connected device (2 available)
+
+• No issues found!
+PS C:\Users\punza\OneDrive\เอกสาร\GitHub\ITCS424-Wireless-And-Mobile-Computing\Week3> cd C:\Users\punza\AndroidStudioProjects\w3_6288102
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102> flutter create recipes
+Creating project recipes...
+  recipes\lib\main.dart (created)
+  recipes\pubspec.yaml (created)
+  recipes\README.md (created)
+  recipes\test\widget_test.dart (created)
+  recipes\.gitignore (created)
+  recipes\.idea\libraries\Dart_SDK.xml (created)
+  recipes\.idea\libraries\KotlinJavaRuntime.xml (created)
+  recipes\.idea\modules.xml (created)
+  recipes\.idea\runConfigurations\main_dart.xml (created)
+  recipes\.idea\workspace.xml (created)
+  recipes\.metadata (created)
+  recipes\analysis_options.yaml (created)
+  recipes\android\app\build.gradle (created)
+  recipes\android\app\src\main\kotlin\com\example\recipes\MainActivity.kt (created)
+  recipes\android\build.gradle (created)
+  recipes\android\recipes_android.iml (created)
+  recipes\android\.gitignore (created)
+  recipes\android\app\src\debug\AndroidManifest.xml (created)
+  recipes\android\app\src\main\AndroidManifest.xml (created)
+  recipes\android\app\src\main\res\drawable\launch_background.xml (created)
+  recipes\android\app\src\main\res\drawable-v21\launch_background.xml (created)
+  recipes\android\app\src\main\res\mipmap-hdpi\ic_launcher.png (created)
+  recipes\android\app\src\main\res\mipmap-mdpi\ic_launcher.png (created)
+  recipes\android\app\src\main\res\mipmap-xhdpi\ic_launcher.png (created)
+  recipes\android\app\src\main\res\mipmap-xxhdpi\ic_launcher.png (created)
+  recipes\android\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png (created)
+  recipes\android\app\src\main\res\values\styles.xml (created)
+  recipes\android\app\src\main\res\values-night\styles.xml (created)
+  recipes\android\app\src\profile\AndroidManifest.xml (created)
+  recipes\android\gradle\wrapper\gradle-wrapper.properties (created)
+  recipes\android\gradle.properties (created)
+  recipes\android\settings.gradle (created)
+  recipes\ios\Runner\AppDelegate.swift (created)
+  recipes\ios\Runner\Runner-Bridging-Header.h (created)
+  recipes\ios\Runner.xcodeproj\project.pbxproj (created)
+  recipes\ios\Runner.xcodeproj\xcshareddata\xcschemes\Runner.xcscheme (created)
+  recipes\ios\.gitignore (created)
+  recipes\ios\Flutter\AppFrameworkInfo.plist (created)
+  recipes\ios\Flutter\Debug.xcconfig (created)
+  recipes\ios\Flutter\Release.xcconfig (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-1024x1024@1x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@1x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@2x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@3x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@1x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@2x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@3x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@1x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@2x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@3x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@2x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@3x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@1x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@2x.png (created)
+  recipes\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5@2x.png (created)
+  recipes\ios\Runner\Assets.xcassets\LaunchImage.imageset\Contents.json (created)
+  recipes\ios\Runner\Assets.xcassets\LaunchImage.imageset\LaunchImage.png (created)
+  recipes\ios\Runner\Assets.xcassets\LaunchImage.imageset\LaunchImage@2x.png (created)
+  recipes\ios\Runner\Assets.xcassets\LaunchImage.imageset\LaunchImage@3x.png (created)
+  recipes\ios\Runner\Assets.xcassets\LaunchImage.imageset\README.md (created)
+  recipes\ios\Runner\Base.lproj\LaunchScreen.storyboard (created)
+  recipes\ios\Runner\Base.lproj\Main.storyboard (created)
+  recipes\ios\Runner\Info.plist (created)
+  recipes\ios\Runner.xcodeproj\project.xcworkspace\contents.xcworkspacedata (created)
+  recipes\ios\Runner.xcodeproj\project.xcworkspace\xcshareddata\IDEWorkspaceChecks.plist (created)
+  recipes\ios\Runner.xcodeproj\project.xcworkspace\xcshareddata\WorkspaceSettings.xcsettings (created)
+  recipes\ios\Runner.xcworkspace\contents.xcworkspacedata (created)
+  recipes\ios\Runner.xcworkspace\xcshareddata\IDEWorkspaceChecks.plist (created)
+  recipes\ios\Runner.xcworkspace\xcshareddata\WorkspaceSettings.xcsettings (created)
+  recipes\recipes.iml (created)
+  recipes\web\favicon.png (created)
+  recipes\web\icons\Icon-192.png (created)
+  recipes\web\icons\Icon-512.png (created)
+  recipes\web\icons\Icon-maskable-192.png (created)
+  recipes\web\icons\Icon-maskable-512.png (created)
+  recipes\web\index.html (created)
+  recipes\web\manifest.json (created)
+Running "flutter pub get" in recipes...                          1,535ms
+Wrote 81 files.
+
+All done!
+In order to run your application, type:
+
+  $ cd recipes
+  $ flutter run
+
+Your application code is in recipes\lib\main.dart.
+
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102> cd .\recipes\
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+Running Gradle task 'assembleDebug'...                             27.5s
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Installing build\app\outputs\flutter-apk\app.apk...                406ms
+Syncing files to device Android SDK built for x86...                79ms
+
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+ Running with sound null safety
+
+An Observatory debugger and profiler on Android SDK built for x86 is available at: http://127.0.0.1:52392/MnO0R2tL2VY=/
+The Flutter DevTools debugger and profiler on Android SDK built for x86 is available at:
+http://127.0.0.1:9100?uri=http://127.0.0.1:52392/MnO0R2tL2VY=/
+
+Application finished.
+Terminate batch job (Y/N)? n
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+Running Gradle task 'assembleDebug'...                             11.1s
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Installing build\app\outputs\flutter-apk\app.apk...                454ms
+Syncing files to device Android SDK built for x86...                64ms
+
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+ Running with sound null safety
+
+An Observatory debugger and profiler on Android SDK built for x86 is available at: http://127.0.0.1:62273/_Z1M3EKry1E=/
+I/example.recipe( 3658): Waiting for a blocking GC ProfileSaver
+The Flutter DevTools debugger and profiler on Android SDK built for x86 is available at:
+http://127.0.0.1:9100?uri=http://127.0.0.1:62273/_Z1M3EKry1E=/
+Lost connection to device.
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+Running Gradle task 'assembleDebug'...                           2,207ms
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Syncing files to device Android SDK built for x86...                64ms
+
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+ Running with sound null safety
+
+An Observatory debugger and profiler on Android SDK built for x86 is available at: http://127.0.0.1:62372/2RShnHzz7Sk=/
+The Flutter DevTools debugger and profiler on Android SDK built for x86 is available at:
+http://127.0.0.1:9100?uri=http://127.0.0.1:62372/2RShnHzz7Sk=/
+D/EGL_emulation( 3781): eglCreateContext: 0xeefcff20: maj 2 min 0 rcv 2
+
+Performing hot restart...
+Restarted application in 644ms.
+Lost connection to device.
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+Running Gradle task 'assembleDebug'...                             10.8s
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Installing build\app\outputs\flutter-apk\app.apk...                409ms
+Syncing files to device Android SDK built for x86...                61ms
+
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+ Running with sound null safety
+
+An Observatory debugger and profiler on Android SDK built for x86 is available at: http://127.0.0.1:62588/XvPqeuLFxw0=/
+The Flutter DevTools debugger and profiler on Android SDK built for x86 is available at:
+http://127.0.0.1:9100?uri=http://127.0.0.1:62588/XvPqeuLFxw0=/
+
+Performing hot restart...
+Restarted application in 663ms.
+
+Performing hot restart...
+Restarted application in 577ms.
+Lost connection to device.
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Running "flutter pub get" in recipes...                            377ms
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+Running Gradle task 'assembleDebug'...                             10.9s
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Installing build\app\outputs\flutter-apk\app.apk...                451ms
+Syncing files to device Android SDK built for x86...                63ms
+
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+ Running with sound null safety
+
+An Observatory debugger and profiler on Android SDK built for x86 is available at: http://127.0.0.1:63186/8ckPqqQ5Nr0=/
+The Flutter DevTools debugger and profiler on Android SDK built for x86 is available at:
+http://127.0.0.1:9100?uri=http://127.0.0.1:63186/8ckPqqQ5Nr0=/
+
+lib/main.dart:82:26: Error: Type 'Recipe' not found.
+  Widget buildRecipeCard(Recipe recipe) {
+                         ^^^^^^
+lib/main.dart:68:22: Error: The getter 'Recipe' isn't defined for the class '_MyHomePageState'.
+ - '_MyHomePageState' is from 'package:recipes/main.dart' ('lib/main.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'Recipe'.
+          itemCount: Recipe.samples.length,
+                     ^^^^^^
+lib/main.dart:74:36: Error: The getter 'Recipe' isn't defined for the class '_MyHomePageState'.
+ - '_MyHomePageState' is from 'package:recipes/main.dart' ('lib/main.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'Recipe'.
+            return buildRecipeCard(Recipe.samples[index]);
+                                   ^^^^^^
+lib/main.dart:82:26: Error: 'Recipe' isn't a type.
+  Widget buildRecipeCard(Recipe recipe) {
+                         ^^^^^^
+Performing hot restart...
+Restarted application in 195ms.
+Try again after fixing the above error(s).
+
+lib/main.dart:82:26: Error: Type 'Recipe' not found.
+  Widget buildRecipeCard(Recipe recipe) {
+                         ^^^^^^
+lib/main.dart:68:22: Error: The getter 'Recipe' isn't defined for the class '_MyHomePageState'.
+ - '_MyHomePageState' is from 'package:recipes/main.dart' ('lib/main.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'Recipe'.
+          itemCount: Recipe.samples.length,
+                     ^^^^^^
+lib/main.dart:74:36: Error: The getter 'Recipe' isn't defined for the class '_MyHomePageState'.
+ - '_MyHomePageState' is from 'package:recipes/main.dart' ('lib/main.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'Recipe'.
+            return buildRecipeCard(Recipe.samples[index]);
+                                   ^^^^^^
+lib/main.dart:82:26: Error: 'Recipe' isn't a type.
+  Widget buildRecipeCard(Recipe recipe) {
+                         ^^^^^^
+Performing hot restart...
+Restarted application in 597ms.
+Try again after fixing the above error(s).
+Application finished.
+Terminate batch job (Y/N)? y
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+lib/main.dart:82:26: Error: Type 'Recipe' not found.
+  Widget buildRecipeCard(Recipe recipe) {
+                         ^^^^^^
+lib/main.dart:68:22: Error: The getter 'Recipe' isn't defined for the class '_MyHomePageState'.
+ - '_MyHomePageState' is from 'package:recipes/main.dart' ('lib/main.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'Recipe'.
+          itemCount: Recipe.samples.length,
+                     ^^^^^^
+lib/main.dart:74:36: Error: The getter 'Recipe' isn't defined for the class '_MyHomePageState'.
+ - '_MyHomePageState' is from 'package:recipes/main.dart' ('lib/main.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'Recipe'.
+            return buildRecipeCard(Recipe.samples[index]);
+                                   ^^^^^^
+lib/main.dart:82:26: Error: 'Recipe' isn't a type.
+  Widget buildRecipeCard(Recipe recipe) {
+                         ^^^^^^
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script 'C:\Users\punza\OneDrive\??????\flutter\packages\flutter_tools\gradle\flutter.gradle' line: 1070
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildDebug'.
+> Process 'command 'C:\Users\punza\OneDrive\??????\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s
+Running Gradle task 'assembleDebug'...                              9.2s
+Exception: Gradle task assembleDebug failed with exit code 1
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+Running Gradle task 'assembleDebug'...                             10.4s
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Installing build\app\outputs\flutter-apk\app.apk...                453ms
+Syncing files to device Android SDK built for x86...                61ms
+
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+ Running with sound null safety
+
+An Observatory debugger and profiler on Android SDK built for x86 is available at: http://127.0.0.1:63825/kU1GcpjS-vA=/
+
+══╡ EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE ╞════════════════════════════════════════════════════
+The following assertion was thrown resolving an image codec:
+Unable to load asset: assets/2126711929_ef763de2b3_w.jpg
+
+When the exception was thrown, this was the stack:
+#0      PlatformAssetBundle.load (package:flutter/src/services/asset_bundle.dart:237:7)
+<asynchronous suspension>
+#1      AssetBundleImageProvider._loadAsync (package:flutter/src/painting/image_provider.dart:675:14)
+<asynchronous suspension>
+
+Image provider: AssetImage(bundle: null, name: "assets/2126711929_ef763de2b3_w.jpg")
+Image key: AssetBundleImageKey(bundle: PlatformAssetBundle#48a3f(), name:
+  "assets/2126711929_ef763de2b3_w.jpg", scale: 1.0)
+════════════════════════════════════════════════════════════════════════════════════════════════════
+
+Another exception was thrown: Unable to load asset: assets/27729023535_a57606c1be.jpg
+
+Another exception was thrown: Unable to load asset: assets/3187380632_5056654a19_b.jpg
+
+Another exception was thrown: Unable to load asset: assets/15992102771_b92f4cc00a_b.jpg
+
+Another exception was thrown: Unable to load asset: assets/8533381643_a31a99e8a6_c.jpg
+
+Another exception was thrown: Unable to load asset: assets/15452035777_294cefced5_c.jpg
+The Flutter DevTools debugger and profiler on Android SDK built for x86 is available at:
+http://127.0.0.1:9100?uri=http://127.0.0.1:63825/kU1GcpjS-vA=/
+
+Could not update files on device: FileSystemException: Cannot open file, path =
+'C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes\assets\chocochip-cookie.jpg' (OS Error: The system cannot find
+the file specified.
+, errno = 2)
+Performing hot restart...
+Restarted application in 5,295ms.
+Try again after fixing the above error(s).
+Application finished.
+Terminate batch job (Y/N)? y
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+Running Gradle task 'assembleDebug'...                             11.1s
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Installing build\app\outputs\flutter-apk\app.apk...                438ms
+adb shell failed to write the SHA hash: ProcessException: Process exited abnormally:
+* daemon not running; starting now at tcp:5037
+could not read ok from ADB Server
+* failed to start daemon
+adb.exe: cannot connect to daemon
+  Command: C:\Users\punza\AppData\Local\Android\sdk\platform-tools\adb.exe -s emulator-5554 shell echo -n
+  fd8b1112242841ce6202dc3f4e2a5eaac5e79f46 > /data/local/tmp/sky.com.example.recipes.sha1.
+Uninstalling old version...
+Terminate batch job (Y/N)? y
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+Running Gradle task 'assembleDebug'...                             10.8s
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Installing build\app\outputs\flutter-apk\app.apk...                461ms
+adb shell failed to write the SHA hash: ProcessException: Process exited abnormally:
+* daemon not running; starting now at tcp:5037
+could not read ok from ADB Server
+* failed to start daemon
+adb.exe: cannot connect to daemon
+  Command: C:\Users\punza\AppData\Local\Android\sdk\platform-tools\adb.exe -s emulator-5554 shell echo -n
+  878c4e3a7786255e424d46843d1cd25da3edac0a > /data/local/tmp/sky.com.example.recipes.sha1.
+Uninstalling old version...
+Terminate batch job (Y/N)? y
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+Running Gradle task 'assembleDebug'...                              4.0s
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Installing build\app\outputs\flutter-apk\app.apk...                418ms
+Syncing files to device Android SDK built for x86...                67ms
+
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+ Running with sound null safety
+
+An Observatory debugger and profiler on Android SDK built for x86 is available at: http://127.0.0.1:64128/j_bF3xsj0Vc=/
+The Flutter DevTools debugger and profiler on Android SDK built for x86 is available at:
+http://127.0.0.1:9100?uri=http://127.0.0.1:64128/j_bF3xsj0Vc=/
+
+Performing hot restart...
+Restarted application in 696ms.
+
+══╡ EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE ╞════════════════════════════════════════════════════
+The following assertion was thrown resolving an image codec:
+Unable to load asset: assets/fo4.png
+
+When the exception was thrown, this was the stack:
+#0      PlatformAssetBundle.load (package:flutter/src/services/asset_bundle.dart:237:7)
+<asynchronous suspension>
+#1      AssetBundleImageProvider._loadAsync (package:flutter/src/painting/image_provider.dart:675:14)
+<asynchronous suspension>
+
+Image provider: AssetImage(bundle: null, name: "assets/fo4.png")
+Image key: AssetBundleImageKey(bundle: PlatformAssetBundle#47de9(), name: "assets/fo4.png", scale:
+  1.0)
+════════════════════════════════════════════════════════════════════════════════════════════════════
+
+Another exception was thrown: Unable to load asset: assets/fo4.png
+
+Performing hot restart...
+Restarted application in 596ms.
+
+Performing hot restart...
+Restarted application in 581ms.
+
+Performing hot restart...
+Restarted application in 567ms.
+
+lib/main.dart:123:20: Error: The getter 'label' isn't defined for the class 'Game'.
+ - 'Game' is from 'package:recipes/overview.dart' ('lib/overview.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'label'.
+              game.label,
+                   ^^^^^
+lib/detail_obj.dart:27:35: Error: The getter 'label' isn't defined for the class 'Game'.
+ - 'Game' is from 'package:recipes/overview.dart' ('lib/overview.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'label'.
+        title: Text(widget.recipe.label),
+                                  ^^^^^
+lib/detail_obj.dart:48:29: Error: The getter 'label' isn't defined for the class 'Game'.
+ - 'Game' is from 'package:recipes/overview.dart' ('lib/overview.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'label'.
+              widget.recipe.label,
+                            ^^^^^
+Performing hot restart...
+Restarted application in 166ms.
+Try again after fixing the above error(s).
+Application finished.
+Terminate batch job (Y/N)? y
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+lib/main.dart:123:20: Error: The getter 'label' isn't defined for the class 'Game'.
+ - 'Game' is from 'package:recipes/overview.dart' ('lib/overview.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'label'.
+              game.label,
+                   ^^^^^
+lib/detail_obj.dart:27:35: Error: The getter 'label' isn't defined for the class 'Game'.
+ - 'Game' is from 'package:recipes/overview.dart' ('lib/overview.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'label'.
+        title: Text(widget.recipe.label),
+                                  ^^^^^
+lib/detail_obj.dart:48:29: Error: The getter 'label' isn't defined for the class 'Game'.
+ - 'Game' is from 'package:recipes/overview.dart' ('lib/overview.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'label'.
+              widget.recipe.label,
+                            ^^^^^
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script 'C:\Users\punza\OneDrive\??????\flutter\packages\flutter_tools\gradle\flutter.gradle' line: 1070
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildDebug'.
+> Process 'command 'C:\Users\punza\OneDrive\??????\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s
+Running Gradle task 'assembleDebug'...                              9.3s
+Exception: Gradle task assembleDebug failed with exit code 1
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+lib/main.dart:123:20: Error: The getter 'label' isn't defined for the class 'Game'.
+ - 'Game' is from 'package:recipes/overview.dart' ('lib/overview.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'label'.
+              game.label,
+                   ^^^^^
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script 'C:\Users\punza\OneDrive\??????\flutter\packages\flutter_tools\gradle\flutter.gradle' line: 1070
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildDebug'.
+> Process 'command 'C:\Users\punza\OneDrive\??????\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+Running Gradle task 'assembleDebug'...                              8.6s
+Exception: Gradle task assembleDebug failed with exit code 1
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+lib/detail_obj.dart:51:13: Error: Expected an identifier, but got ')'.
+Try inserting an identifier before ')'.
+            ),name
+            ^
+lib/detail_obj.dart:51:13: Error: Expected ']' before this.
+            ),name
+            ^
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script 'C:\Users\punza\OneDrive\??????\flutter\packages\flutter_tools\gradle\flutter.gradle' line: 1070
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildDebug'.
+> Process 'command 'C:\Users\punza\OneDrive\??????\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s
+Running Gradle task 'assembleDebug'...                              8.7s
+Exception: Gradle task assembleDebug failed with exit code 1
+PS C:\Users\punza\AndroidStudioProjects\w3_6288102\recipes> flutter run
+Using hardware rendering with device Android SDK built for x86. If you notice graphics artifacts, consider enabling
+software rendering with "--enable-software-rendering".
+Launching lib\main.dart on Android SDK built for x86 in debug mode...
+Running Gradle task 'assembleDebug'...                             13.5s
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Installing build\app\outputs\flutter-apk\app.apk...                469ms
+Syncing files to device Android SDK built for x86...                76ms
+
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+ Running with sound null safety
+
+An Observatory debugger and profiler on Android SDK built for x86 is available at: http://127.0.0.1:52465/WDzM3eVRvwY=/
+The Flutter DevTools debugger and profiler on Android SDK built for x86 is available at:
+http://127.0.0.1:9100?uri=http://127.0.0.1:52465/WDzM3eVRvwY=/
+
+Performing hot restart...
+Restarted application in 602ms.
+
+Performing hot restart...
+Restarted application in 566ms.
+Lost connection to device.
